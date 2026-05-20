@@ -1,17 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import Gallery from "./Pages/Gallery";
+import Contact from "./Pages/Contact";
+
 export default function App() {
   return (
-    <div
-      style={{
-        background: "black",
-        color: "white",
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontSize: "60px"
-      }}
-    >
-      TEST
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }

@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Services from "./pages/Services";
-import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import Gallery from "./Pages/Gallery";
+import Contact from "./Pages/Contact";
 
 export default function App() {
   return (

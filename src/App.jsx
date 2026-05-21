@@ -45,7 +45,7 @@ export default function App() {
         <div className="logo-wrap">
 
           <img
-            src="YOUR_LOGO_URL_HERE"
+            src="https://i.postimg.cc/d1JCTQrt/IMG-20260521-113338.jpg"
             alt="logo"
             className="logo-img"
           />
@@ -69,7 +69,7 @@ export default function App() {
           </p>
 
           <h2>
-            SHINE &
+            SHINE N
             <br />
             GLOW
           </h2>
@@ -235,7 +235,7 @@ export default function App() {
       <footer className="footer">
 
         <img
-          src="YOUR_FOOTER_LOGO_URL_HERE"
+          src="https://i.postimg.cc/d1JCTQrt/IMG-20260521-113338.jpg"
           alt="footer logo"
           className="footer-logo"
         />

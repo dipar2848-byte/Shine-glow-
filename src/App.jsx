@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import {
   Menu,
   ArrowRight,
@@ -96,12 +98,12 @@ export default function App() {
               <ArrowRight size={18} />
             </a>
 
-            <a
-              href="#our-work"
-              className="dark-btn"
-            >
-              OUR WORK
-            </a>
+            <Link
+  to="/work"
+  className="dark-btn"
+>
+  OUR WORK
+</Link>
 
           </div>
 

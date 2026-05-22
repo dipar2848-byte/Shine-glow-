@@ -192,11 +192,19 @@ export default function App() {
           THE DIFFERENCE IS REAL.
         </h3>
 
-        <div className="before-img">
+        <div className="before-slider">
 
-          <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1600&auto=format&fit=crop" />
+          <img
+            className="before-image"
+            src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1600&auto=format&fit=crop"
+          />
 
-          <div className="compare-btn">
+          <img
+            className="after-image"
+            src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1600&auto=format&fit=crop"
+          />
+
+          <div className="slider-handle">
             ‹ ›
           </div>
 
@@ -274,30 +282,6 @@ export default function App() {
         </div>
 
         <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1600&auto=format&fit=crop" />
-
-      </section>
-
-      <section className="contact card">
-
-        <div className="contact-box">
-          <h4>LOCATION</h4>
-          <p>Mumbai, India</p>
-        </div>
-
-        <div className="contact-box">
-          <h4>PHONE</h4>
-          <p>+91 XXXXX XXXXX</p>
-        </div>
-
-        <div className="contact-box">
-          <h4>INSTAGRAM</h4>
-          <p>@shinen_glow</p>
-        </div>
-
-        <div className="contact-box">
-          <h4>WORKING HOURS</h4>
-          <p>Mon - Sat / 10AM - 8PM</p>
-        </div>
 
       </section>
 

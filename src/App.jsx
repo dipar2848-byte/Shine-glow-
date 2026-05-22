@@ -84,15 +84,26 @@ export default function App() {
             Every Detail, Elevated.
           </p>
 
-          <a
-            href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20to%20book%20a%20detailing%20service"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="gold-outline"
-          >
-            BOOK NOW
-            <ArrowRight size={18} />
-          </a>
+          <div className="hero-buttons">
+
+            <a
+              href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20to%20book%20a%20detailing%20service"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gold-outline"
+            >
+              BOOK NOW
+              <ArrowRight size={18} />
+            </a>
+
+            <a
+              href="#our-work"
+              className="dark-btn"
+            >
+              OUR WORK
+            </a>
+
+          </div>
 
         </div>
 
@@ -106,6 +117,50 @@ export default function App() {
           <span>01</span>
           <div className="line"></div>
           <span>03</span>
+        </div>
+
+      </section>
+
+      <section className="our-work-page" id="our-work">
+
+        <div className="work-header">
+
+          <p className="eyebrow">
+            OUR WORK
+          </p>
+
+          <h3 className="section-title">
+            RESULTS THAT
+            <br />
+            SPEAK FOR
+            <br />
+            <span>THEMSELVES.</span>
+          </h3>
+
+          <p className="work-sub">
+            Premium detailing transformations and client experiences will be showcased here soon.
+          </p>
+
+        </div>
+
+        <div className="empty-showcase">
+
+          <div className="empty-card">
+            <h4>COMING SOON</h4>
+
+            <p>
+              Real customer transformations, reviews, and premium detailing showcases will appear here.
+            </p>
+          </div>
+
+          <div className="empty-card">
+            <h4>CLIENT TESTIMONIALS</h4>
+
+            <p>
+              Verified customer experiences and detailing results will be updated regularly.
+            </p>
+          </div>
+
         </div>
 
       </section>

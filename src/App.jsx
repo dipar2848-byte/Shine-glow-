@@ -40,6 +40,7 @@ const gallery = [
 export default function App() {
   return (
     <div className="app">
+
       <header className="navbar">
 
         <div className="logo-wrap">
@@ -60,10 +61,13 @@ export default function App() {
         <button className="menu-btn">
           <Menu size={24} />
         </button>
+
       </header>
 
       <section className="hero">
+
         <div className="hero-left">
+
           <p className="eyebrow">
             DETAILING THAT DEFINES EXCELLENCE
           </p>
@@ -80,14 +84,22 @@ export default function App() {
             Every Detail, Elevated.
           </p>
 
-          <button className="gold-outline">
+          <a
+            href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20to%20book%20a%20detailing%20service"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gold-outline"
+          >
             BOOK NOW
             <ArrowRight size={18} />
-          </button>
+          </a>
+
         </div>
 
         <div className="hero-image">
+
           <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1400&auto=format&fit=crop" />
+
         </div>
 
         <div className="slider">
@@ -95,11 +107,16 @@ export default function App() {
           <div className="line"></div>
           <span>03</span>
         </div>
+
       </section>
 
       <section className="about card">
+
         <div className="text">
-          <p className="eyebrow">ABOUT US</p>
+
+          <p className="eyebrow">
+            ABOUT US
+          </p>
 
           <h3>
             WHERE PASSION
@@ -117,13 +134,18 @@ export default function App() {
             OUR STORY
             <ArrowRight size={18} />
           </button>
+
         </div>
 
         <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop" />
+
       </section>
 
       <section className="services">
-        <p className="eyebrow">OUR SERVICES</p>
+
+        <p className="eyebrow">
+          OUR SERVICES
+        </p>
 
         <h3 className="section-title">
           EXPERT CARE.
@@ -131,6 +153,7 @@ export default function App() {
         </h3>
 
         <div className="services-grid">
+
           {services.map((item) => (
             <div
               className="service-card"
@@ -139,7 +162,9 @@ export default function App() {
                 backgroundImage: `linear-gradient(to top, rgba(0,0,0,.88), rgba(0,0,0,.1)), url(${item.image})`,
               }}
             >
+
               <div className="service-inner">
+
                 <div className="icon-circle">
                   <ShieldCheck size={18} />
                 </div>
@@ -147,29 +172,40 @@ export default function App() {
                 <h4>{item.title}</h4>
 
                 <ArrowRight size={18} />
+
               </div>
+
             </div>
           ))}
+
         </div>
+
       </section>
 
       <section className="before">
-        <p className="eyebrow">BEFORE & AFTER</p>
+
+        <p className="eyebrow">
+          BEFORE & AFTER
+        </p>
 
         <h3 className="section-title">
           THE DIFFERENCE IS REAL.
         </h3>
 
         <div className="before-img">
+
           <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1600&auto=format&fit=crop" />
 
           <div className="compare-btn">
             ‹ ›
           </div>
+
         </div>
+
       </section>
 
       <section className="why">
+
         <p className="eyebrow center">
           WHY CHOOSE US?
         </p>
@@ -199,10 +235,13 @@ export default function App() {
         </div>
 
         <div className="thumbs">
+
           {gallery.map((img, i) => (
             <img key={i} src={img} />
           ))}
+
         </div>
+
       </section>
 
       <section className="cta card">
@@ -223,14 +262,53 @@ export default function App() {
             Book your appointment now and give your car the care it deserves.
           </p>
 
-          <button className="gold-btn">
+          <a
+            href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20to%20book%20a%20detailing%20service"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gold-btn"
+          >
             BOOK ON WHATSAPP
-          </button>
+          </a>
 
         </div>
 
         <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1600&auto=format&fit=crop" />
+
       </section>
+
+      <section className="contact card">
+
+        <div className="contact-box">
+          <h4>LOCATION</h4>
+          <p>Mumbai, India</p>
+        </div>
+
+        <div className="contact-box">
+          <h4>PHONE</h4>
+          <p>+91 XXXXX XXXXX</p>
+        </div>
+
+        <div className="contact-box">
+          <h4>INSTAGRAM</h4>
+          <p>@shinen_glow</p>
+        </div>
+
+        <div className="contact-box">
+          <h4>WORKING HOURS</h4>
+          <p>Mon - Sat / 10AM - 8PM</p>
+        </div>
+
+      </section>
+
+      <a
+        href="https://wa.me/91XXXXXXXXXX"
+        className="floating-wa"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        WhatsApp
+      </a>
 
       <footer className="footer">
 
@@ -247,6 +325,7 @@ export default function App() {
         </p>
 
       </footer>
+
     </div>
   );
 }

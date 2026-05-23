@@ -121,51 +121,7 @@ export default function App() {
           <span>03</span>
         </div>
 
-      </section>
-
-      <section className="our-work-page" id="our-work">
-
-        <div className="work-header">
-
-          <p className="eyebrow">
-            OUR WORK
-          </p>
-
-          <h3 className="section-title">
-            RESULTS THAT
-            <br />
-            SPEAK FOR
-            <br />
-            <span>THEMSELVES.</span>
-          </h3>
-
-          <p className="work-sub">
-            Premium detailing transformations and client experiences will be showcased here soon.
-          </p>
-
-        </div>
-
-        <div className="empty-showcase">
-
-          <div className="empty-card">
-            <h4>COMING SOON</h4>
-
-            <p>
-              Real customer transformations, reviews, and premium detailing showcases will appear here.
-            </p>
-          </div>
-
-          <div className="empty-card">
-            <h4>CLIENT TESTIMONIALS</h4>
-
-            <p>
-              Verified customer experiences and detailing results will be updated regularly.
-            </p>
-          </div>
-
-        </div>
-
-      </section>
+    
 
       <section className="about card">
 

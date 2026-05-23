@@ -121,7 +121,7 @@ export default function App() {
           <span>03</span>
         </div>
 
-    
+    </section>
 
       <section className="about card">
 
